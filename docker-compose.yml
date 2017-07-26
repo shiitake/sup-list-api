@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  sup-list-api:
+    image: sup-list-api
+    build:
+      context: ./sup-list-api
+      dockerfile: Dockerfile
